@@ -19,7 +19,7 @@ class FirstMainWin(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
 
-    app.setWindowIcon(QIcon('./images/Dragon.ico'))
+    app.setWindowIcon(QIcon('./images/Archer.ico'))
     main = FirstMainWin()
     main.show()
 

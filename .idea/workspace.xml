@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d838f09-d7c7-4afe-a9ea-8b3d9eb6037c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designer/Runht_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyqt5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyqt5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designer/MainWinAbsoluteLayout.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/MainWinAbsoluteLayout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designer/MainWinAbsoluteLayout.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/MainWinAbsoluteLayout.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQT5学习.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/PyQT5学习.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controls/CenterForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controls/CenterForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controls/FirstMainWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controls/FirstMainWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controls/IconForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controls/IconForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controls/QuitApplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controls/QuitApplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designer/ht_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/ht_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designer/ht_test.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/ht_test.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +48,8 @@
       <recent name="G:\learning\01-PyQt5视频教程（37.2G）【脑力营商学院】\01 PyQt5开发与实战【脑力营商学院】\源码\ht_pyqt5\src\designer" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RunMainWinBuddy">
-    <configuration name="RunMainWinAbsoluteLayout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.IconForm">
+    <configuration name="CenterForm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,12 +57,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/designer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/controls" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/designer/RunMainWinAbsoluteLayout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controls/CenterForm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RunMainWinBuddy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstMainWin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,12 +79,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/designer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/controls" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/designer/RunMainWinBuddy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controls/FirstMainWin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RunMainWinSizePolicy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="IconForm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/designer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/controls" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/designer/RunMainWinSizePolicy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controls/IconForm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RunMainWinSpacerLine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="QuitApplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,12 +123,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/designer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/controls" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/designer/RunMainWinSpacerLine.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controls/QuitApplication.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Runht_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ScreenGeometry" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyqt5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,12 +145,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/designer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/controls" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/designer/Runht_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controls/ScreenGeometry.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RunMainWinBuddy" />
-        <item itemvalue="Python.Runht_test" />
-        <item itemvalue="Python.RunMainWinAbsoluteLayout" />
-        <item itemvalue="Python.RunMainWinSpacerLine" />
-        <item itemvalue="Python.RunMainWinSizePolicy" />
+        <item itemvalue="Python.IconForm" />
+        <item itemvalue="Python.ScreenGeometry" />
+        <item itemvalue="Python.QuitApplication" />
+        <item itemvalue="Python.CenterForm" />
+        <item itemvalue="Python.FirstMainWin" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,9 @@
       <option name="presentableId" value="Default" />
       <updated>1654952813030</updated>
       <workItem from="1654952814110" duration="4590000" />
-      <workItem from="1654958310409" duration="1225000" />
+      <workItem from="1654958310409" duration="1866000" />
+      <workItem from="1654999890242" duration="5233000" />
+      <workItem from="1655045417758" duration="2278000" />
     </task>
     <servers />
   </component>
@@ -184,10 +188,18 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ht_pyqt5$RunMainWinSpacerLine.coverage" NAME="RunMainWinSpacerLine Coverage Results" MODIFIED="1654958063075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$QuitApplication.coverage" NAME="QuitApplication Coverage Results" MODIFIED="1655005140372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/controls" />
     <SUITE FILE_PATH="coverage/ht_pyqt5$RunMainWinGridLayout.coverage" NAME="RunMainWinGridLayout Coverage Results" MODIFIED="1654954663750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
-    <SUITE FILE_PATH="coverage/ht_pyqt5$Runht_test.coverage" NAME="Runht_test Coverage Results" MODIFIED="1654959540174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
-    <SUITE FILE_PATH="coverage/ht_pyqt5$RunMainWinSizePolicy.coverage" NAME="RunMainWinSizePolicy Coverage Results" MODIFIED="1654957220231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$Runht_test.coverage" NAME="Runht_test Coverage Results" MODIFIED="1655000458609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
     <SUITE FILE_PATH="coverage/ht_pyqt5$RunMainWinAbsoluteLayout.coverage" NAME="RunMainWinAbsoluteLayout Coverage Results" MODIFIED="1654958468663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$FirstMainWin.coverage" NAME="FirstMainWin Coverage Results" MODIFIED="1655003183436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/controls" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$IconForm.coverage" NAME="IconForm Coverage Results" MODIFIED="1655048239998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/controls" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$CenterForm.coverage" NAME="CenterForm Coverage Results" MODIFIED="1655004353964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/controls" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$RunMainWinSpacerLine.coverage" NAME="RunMainWinSpacerLine Coverage Results" MODIFIED="1654958063075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$RunMainWinSignalSlot.coverage" NAME="RunMainWinSignalSlot Coverage Results" MODIFIED="1655000075443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$ScreenGeometry.coverage" NAME="ScreenGeometry Coverage Results" MODIFIED="1655048119414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/controls" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$RunMainWinSizePolicy.coverage" NAME="RunMainWinSizePolicy Coverage Results" MODIFIED="1654957220231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$RunMainWinBuddy.coverage" NAME="RunMainWinBuddy Coverage Results" MODIFIED="1654959575048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/ht_pyqt5$First.coverage" NAME="First Coverage Results" MODIFIED="1655002674694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/basic" />
   </component>
 </project>

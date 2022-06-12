@@ -20,12 +20,15 @@ class CenterForm(QMainWindow):
         size = self.geometry()
         newLeft = (screen.width() - size.width()) / 2
         newTop = (screen.height() - size.height()) / 2
-        self.move(newLeft,newTop)
+        # newLeft = (screen.width() - size.width()) / 3
+        # newTop = (screen.height() - size.height()) / 3
+        self.move(int(newLeft),int(newTop))
 
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = CenterForm()
+    main.center()
     main.show()
 
     sys.exit(app.exec_())

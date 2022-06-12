@@ -23,7 +23,7 @@ class IconForm(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon('./images/Dragon.ico'))
+    # app.setWindowIcon(QIcon('./images/Dragon.ico'))
     main = IconForm()
     main.show()
 

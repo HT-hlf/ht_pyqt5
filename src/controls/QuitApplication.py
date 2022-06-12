@@ -25,6 +25,7 @@ class QuitApplication(QMainWindow):
     def onClick_Button(self):
         sender = self.sender()
         print(sender.text() + ' 按钮被按下')
+        #通过静态方法instance()来获取QcoreApplication对象的句柄
         app = QApplication.instance()
         # 退出应用程序
         app.quit()

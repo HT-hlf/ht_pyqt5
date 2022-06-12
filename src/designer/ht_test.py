@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.formLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.formLayoutWidget.setGeometry(QtCore.QRect(220, 180, 511, 291))
+        self.formLayoutWidget.setGeometry(QtCore.QRect(280, 20, 511, 291))
         self.formLayoutWidget.setObjectName("formLayoutWidget")
         self.formLayout = QtWidgets.QFormLayout(self.formLayoutWidget)
         self.formLayout.setContentsMargins(0, 0, 0, 0)
@@ -40,6 +40,23 @@ class Ui_MainWindow(object):
         self.lineEdit_2 = QtWidgets.QLineEdit(self.formLayoutWidget)
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.lineEdit_2)
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(70, 40, 93, 28))
+        self.pushButton.setObjectName("pushButton")
+        self.checkBox = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox.setGeometry(QtCore.QRect(20, 140, 91, 19))
+        self.checkBox.setChecked(True)
+        self.checkBox.setObjectName("checkBox")
+        self.checkBox_2 = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox_2.setGeometry(QtCore.QRect(20, 280, 91, 19))
+        self.checkBox_2.setChecked(True)
+        self.checkBox_2.setObjectName("checkBox_2")
+        self.listWidget = QtWidgets.QListWidget(self.centralwidget)
+        self.listWidget.setGeometry(QtCore.QRect(20, 330, 256, 192))
+        self.listWidget.setObjectName("listWidget")
+        self.lcdNumber = QtWidgets.QLCDNumber(self.centralwidget)
+        self.lcdNumber.setGeometry(QtCore.QRect(30, 190, 64, 23))
+        self.lcdNumber.setObjectName("lcdNumber")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
@@ -52,6 +69,9 @@ class Ui_MainWindow(object):
         self.label_2.setBuddy(self.lineEdit_2)
 
         self.retranslateUi(MainWindow)
+        self.pushButton.clicked.connect(self.pushButton.close) # type: ignore
+        self.checkBox.toggled['bool'].connect(self.lcdNumber.setVisible) # type: ignore
+        self.checkBox_2.toggled['bool'].connect(self.listWidget.setEnabled) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -59,3 +79,6 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label.setText(_translate("MainWindow", "黄涛(A):"))
         self.label_2.setText(_translate("MainWindow", "HT(&B):"))
+        self.pushButton.setText(_translate("MainWindow", "PushButton"))
+        self.checkBox.setText(_translate("MainWindow", "显示/隐藏"))
+        self.checkBox_2.setText(_translate("MainWindow", "打开/关闭"))
