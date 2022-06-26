@@ -37,6 +37,7 @@ class QTextEditDemo(QWidget) :
         self.buttonText.clicked.connect(self.onClick_ButtonText)
         self.buttonHTML.clicked.connect(self.onClick_ButtonHTML)
 
+        # self.buttonToText.clicked.connect(lambda: self.onClick_ButtonToText())
         self.buttonToText.clicked.connect(self.onClick_ButtonToText)
         self.buttonToHTML.clicked.connect(self.onClick_ButtonToHTML)
 

@@ -17,12 +17,13 @@ class QRadioButtonDemo(QWidget):
         self.setWindowTitle('QRadioButton')
         layout = QHBoxLayout()
         self.button1 = QRadioButton('单选按钮1')
-        self.button1.setChecked(True)
+        # self.button1.setChecked(True)
 
         self.button1.toggled.connect(self.buttonState)
         layout.addWidget(self.button1)
 
         self.button2 = QRadioButton('单选按钮2')
+        self.button2.setChecked(True)
         self.button2.toggled.connect(self.buttonState)
         layout.addWidget(self.button2)
         self.setLayout(layout)

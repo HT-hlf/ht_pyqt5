@@ -39,6 +39,7 @@ class QLabelBuddy(QDialog) :
 
         mainLayout.addWidget(btnOK,2,1)
         mainLayout.addWidget(btnCancel,2,2)
+        # self.setLayout(mainLayout)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
