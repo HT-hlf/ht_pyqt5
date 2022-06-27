@@ -24,6 +24,7 @@ class MyComboBox(QComboBox) :
         print(e)
         if e.mimeData().hasText():
             e.accept()
+            print('ht')
         else:
             e.ignore()
     def dropEvent(self,e):
