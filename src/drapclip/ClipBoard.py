@@ -29,8 +29,8 @@ class ClipBoard(QDialog):
         layout.addWidget(imageCopyButton,0,1)
         layout.addWidget(htmlCopyButton,0,2)
         layout.addWidget(textPasteButton,1,0)
-        layout.addWidget(htmlPasteButton,1,1)
-        layout.addWidget(imagePasteButton,1,2)
+        layout.addWidget(imagePasteButton,1,1)
+        layout.addWidget(htmlPasteButton, 1, 2)
 
         layout.addWidget(self.textLabel,2,0,1,2)
         layout.addWidget(self.imageLabel,2,2)
