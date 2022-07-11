@@ -23,9 +23,13 @@ class CellSize(QWidget):
         layout.addWidget(tableWidget)
 
         tableWidget.setHorizontalHeaderLabels(['姓名', '性别', '体重(kg)'])
+
         tableWidget.setRowHeight(0, 80)
-        tableWidget.setColumnWidth(2, 120)
+        tableWidget.setColumnWidth(0, 150)
+        tableWidget.setColumnWidth(2, 200)
         tableWidget.setRowHeight(2,100)
+
+
         newItem = QTableWidgetItem('雷神')
         newItem.setFont(QFont('Times',40,QFont.Black))
         newItem.setForeground(QBrush(QColor(255,0,0)))

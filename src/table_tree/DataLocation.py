@@ -36,8 +36,12 @@ class DataLocation(QWidget):
         self.setLayout(layout)
 
         # 搜索满足条件的Cell
-        text = '(1'
-        items = tableWidget.findItems(text,QtCore.Qt.MatchStartsWith)
+        # text = '(1'
+        # items = tableWidget.findItems(text,QtCore.Qt.MatchStartsWith)
+
+        text = '(24,1)'
+        items = tableWidget.findItems(text, QtCore.Qt.MatchExactly)
+        print(items)
         if len(items) > 0:
             item = items[0]
             item.setBackground(QBrush(QColor(0,255,0)))

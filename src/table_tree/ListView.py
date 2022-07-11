@@ -29,6 +29,7 @@ class ListViewDemo(QWidget):
         self.setLayout(layout)
 
     def clicked(self,item):
+        print(item)
         QMessageBox.information(self,"QListView","您选择了：" + self.list[item.row()])
 
 

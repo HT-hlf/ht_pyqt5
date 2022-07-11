@@ -68,7 +68,7 @@ class TableWidgetContextMenu(QWidget):
 
     def generateMenu(self,pos):
         print(pos)
-
+        print(self.tableWidget.selectionModel().selection().indexes())
         for i in self.tableWidget.selectionModel().selection().indexes():
             rowNum = i.row()
         # 如果选择的行索引小于2，弹出上下文菜单
@@ -80,7 +80,9 @@ class TableWidgetContextMenu(QWidget):
             screenPos = self.tableWidget.mapToGlobal(pos)
             print(screenPos)
             # 被阻塞
+            print('ht')
             action = menu.exec(screenPos)
+            print('ht1')
             if action == item1:
                 print('选择了第1个菜单项',self.tableWidget.item(rowNum,0).text(),
                                         self.tableWidget.item(rowNum,1).text(),

@@ -38,8 +38,10 @@ class CellImageSize(QWidget):
             tablewidget.setRowHeight(i,200)
 
         for k in range(15):
+
             i = k / 3   # 行
             j = k % 3   # 列
+
             item = QTableWidgetItem()
 
             item.setIcon(QIcon('./images/bao%d.png' % k))
