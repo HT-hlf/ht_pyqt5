@@ -80,6 +80,8 @@ class ModifyTree(QWidget):
         print('删除节点')
         item = self.tree.currentItem()
         root = self.tree.invisibleRootItem()
+        # print(self.tree.selectedItems())
+        print((item.parent() or root))
         for item in self.tree.selectedItems():
             (item.parent() or root).removeChild(item)
 
